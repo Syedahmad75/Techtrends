@@ -6,7 +6,7 @@ service:
   targetPort: 3111
   type: ClusterIP
 image:
-  repository: Syedahmad75/Techtrends
+  repository: Syedahmad75/techtrends
   tag: latest
   pullPolicy: IfNotPresent
 replicaCount: 1
