@@ -25,7 +25,7 @@ spec:
         app: techtrends
     spec:
       containers:
-        - image: zarexalvindaria/techtrends:latest
+        - image: syedahmad75/techtrends:latest
           imagePullPolicy: IfNotPresent
           name: techtrends
           resources:

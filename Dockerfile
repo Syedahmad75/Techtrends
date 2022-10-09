@@ -10,4 +10,4 @@ RUN python init_db.py
 
 # command to run on container start
 CMD [ "python", "app.py" ]
-EXPOSE 3111
+EXPOSE 3111 
